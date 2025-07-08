@@ -1,0 +1,24 @@
+import random
+
+greetings = ["hi", "hello", "hey", "hola"]
+responses = ["Hello!", "Hi there!", "Hey!", "Greetings!"]
+
+def chatbot_response(user_input):
+    user_input = user_input.lower()
+    if user_input in greetings:
+        return random.choice(responses)
+    elif "how are you" in user_input:
+        return "I'm a bot, but I'm doing great! How can I help you?"
+    elif "bye" in user_input:
+        return "Goodbye! Have a nice day."
+    else:
+        return "Sorry, I didn't understand that. Can you rephrase?"
+
+if __name__ == "__main__":
+    print("Chatbot: Hello! Type 'bye' to exit.")
+    while True:
+        user_input = input("You: ")
+        reply = chatbot_response(user_input)
+        print("Chatbot:", reply)
+        if "bye" in user_input.lower():
+            break
