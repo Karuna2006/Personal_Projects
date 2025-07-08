@@ -9,6 +9,34 @@ def chatbot_response(user_input):
         return random.choice(responses)
     elif "how are you" in user_input:
         return "I'm a bot, but I'm doing great! How can I help you?"
+    elif "what is your name" in user_input:
+        return "I am a simple chatbot created to assist you."
+    elif "help" in user_input:
+        return "Sure! I can help you with general questions. What do you need assistance with?"
+    elif "joke" in user_input:
+        return "Why don't scientists trust atoms? Because they make up everything!"
+    elif "weather" in user_input:
+        return "I can't check the weather, but I hope it's nice where you are!"
+    elif "thank you" in user_input:
+        return "You're welcome! If you have more questions, feel free to ask."
+    elif "what can you do" in user_input:
+        return "I can chat with you, answer simple questions, and tell jokes. What would you like to know?"
+    elif "who created you" in user_input:
+        return "I was created by a team of developers to assist with basic queries."
+    elif "tell me a fact" in user_input:
+        return "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old and still edible!"
+    elif "favorite color" in user_input:
+        return "I don't have a favorite color, but I think blue is nice!"
+    elif "favorite food" in user_input:
+        return "I don't eat, but I hear pizza is quite popular!"
+    elif "favorite music" in user_input:
+        return "I don't listen to music, but I know many people enjoy genres like pop, rock, and classical."
+    elif "favorite movie" in user_input:
+        return "I don't watch movies, but I know classics like 'The Godfather' and 'Star Wars' are very popular."
+    elif "favorite book" in user_input:
+        return "I don't read books, but I know many people love 'To Kill a Mockingbird' and '1984'."
+    elif "give me an advice" in user_input:
+        return "Always be kind to others, and don't forget to take care of yourself!"
     elif "bye" in user_input:
         return "Goodbye! Have a nice day."
     else:
