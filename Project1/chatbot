@@ -13,9 +13,9 @@ def chatbot_response(user_input):
         return "I am a simple chatbot created to assist you."
     elif "help" in user_input:
         return "Sure! I can help you with general questions. What do you need assistance with?"
-    elif "joke" in user_input:
+    elif "crack a joke" in user_input:
         return "Why don't scientists trust atoms? Because they make up everything!"
-    elif "weather" in user_input:
+    elif "what is the weather" in user_input:
         return "I can't check the weather, but I hope it's nice where you are!"
     elif "thank you" in user_input:
         return "You're welcome! If you have more questions, feel free to ask."
@@ -37,6 +37,176 @@ def chatbot_response(user_input):
         return "I don't read books, but I know many people love 'To Kill a Mockingbird' and '1984'."
     elif "give me an advice" in user_input:
         return "Always be kind to others, and don't forget to take care of yourself!"
+    elif "tell me a riddle" in user_input:
+        return "What has keys but can't open locks? A piano!"
+    elif "tell me a quote" in user_input:
+        return "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt"
+    elif "tell me a story" in user_input:
+        return "Once upon a time, in a small village, there lived a kind-hearted person who helped everyone in need. One day, they found a lost puppy and took care of it, and the puppy became their loyal friend. Together, they spread kindness throughout the village."
+    elif "what is your purpose" in user_input:
+        return "My purpose is to assist you with your questions and provide a friendly chat experience."
+    elif "what is your age" in user_input:
+        return "I don't have an age like humans do, but I was created recently to help you!"
+    elif "what is your favorite hobby" in user_input:
+        return "I don't have hobbies, but I enjoy chatting with you!"
+    elif "what is your favorite animal" in user_input:
+        return "I think dogs are great companions, and cats are quite independent and charming!"
+    elif "what is your favorite season" in user_input:
+        return "I don't experience seasons, but many people love spring for its flowers and fall for its colors."
+    elif "what is your favorite holiday" in user_input:
+        return "I don't celebrate holidays, but I know many people enjoy Christmas and New Year's for the joy they bring."
+    elif "what is your favorite sport" in user_input:
+        return "I don't play sports, but I know soccer and basketball are very popular around the world."
+    elif "what is your favorite game" in user_input:
+        return "I don't play games, but I know many people enjoy chess and video games like Minecraft and Fortnite."
+    elif "what is your favorite song" in user_input:
+        return "I don't have a favorite song, but I know many people love classics like 'Bohemian Rhapsody' and 'Imagine'."
+    elif "what is your favorite movie genre" in user_input:
+        return "I don't watch movies, but I know many people enjoy action, comedy, and drama genres."
+    elif "what is your favorite book genre" in user_input:
+        return "I don't read books, but I know many people enjoy fiction, mystery, and fantasy genres."
+    elif "what is the capital of France" in user_input:
+        return "The capital of France is Paris."
+    elif "what is the capital of Japan" in user_input:
+        return "The capital of Japan is Tokyo."
+    elif "what is the capital of India" in user_input:
+        return "The capital of India is New Delhi."
+    elif "what is the capital of the USA" in user_input:
+        return "The capital of the USA is Washington, D.C."
+    elif "what is the capital of Germany" in user_input:
+        return "The capital of Germany is Berlin."
+    elif "what is the capital of Italy" in user_input:
+        return "The capital of Italy is Rome."
+    elif "what is the capital of Spain" in user_input:
+        return "The capital of Spain is Madrid."
+    elif "what is the capital of Canada" in user_input:
+        return "The capital of Canada is Ottawa."
+    elif "what is the capital of Australia" in user_input:
+        return "The capital of Australia is Canberra."
+    elif "what is the capital of the UK" in user_input:
+        return "The capital of the UK is London."
+    elif "what is the capital of China" in user_input:
+        return "The capital of China is Beijing."
+    elif "what is the capital of Russia" in user_input:
+        return "The capital of Russia is Moscow."
+    elif "what is the capital of Brazil" in user_input:
+        return "The capital of Brazil is Brasília."
+    elif "what is the capital of Mexico" in user_input:
+        return "The capital of Mexico is Mexico City."
+    elif "what is the capital of South Africa" in user_input:
+        return "South Africa has three capitals: Pretoria (administrative), Bloemfontein (judicial), and Cape Town (legislative)."
+    elif "what is the capital of Egypt" in user_input:
+        return "The capital of Egypt is Cairo."
+    elif "what is the capital of Argentina" in user_input:
+        return "The capital of Argentina is Buenos Aires."
+    elif "what is the capital of Russia" in user_input:
+        return "The capital of Russia is Moscow."
+    elif "what is the capital of South Korea" in user_input:
+        return "The capital of South Korea is Seoul."
+    elif "what is the capital of Turkey" in user_input:
+        return "The capital of Turkey is Ankara."
+    elif "what is the capital of Saudi Arabia" in user_input:
+        return "The capital of Saudi Arabia is Riyadh."
+    elif "what is the capital of Indonesia" in user_input:
+        return "The capital of Indonesia is Jakarta."
+    elif "what is the capital of Nigeria" in user_input:
+        return "The capital of Nigeria is Abuja."
+    elif "what is the capital of Pakistan" in user_input:
+        return "The capital of Pakistan is Islamabad."
+    elif "what is the capital of Bangladesh" in user_input:
+        return "The capital of Bangladesh is Dhaka."
+    elif "what is the capital of Vietnam" in user_input:
+        return "The capital of Vietnam is Hanoi."
+    elif "what is the capital of Thailand" in user_input:
+        return "The capital of Thailand is Bangkok."
+    elif "what is the capital of Philippines" in user_input:
+        return "The capital of the Philippines is Manila."
+    elif "what is the capital of Malaysia" in user_input:
+        return "The capital of Malaysia is Kuala Lumpur."
+    elif "what is the capital of Singapore" in user_input:
+        return "The capital of Singapore is Singapore (the country is a city-state)."
+    elif "what is the capital of Greece" in user_input:
+        return "The capital of Greece is Athens."
+    elif "what is the capital of Portugal" in user_input:
+        return "The capital of Portugal is Lisbon."
+    elif "what is the capital of Netherlands" in user_input:
+        return "The capital of the Netherlands is Amsterdam."
+    elif "what is the capital of Belgium" in user_input:
+        return "The capital of Belgium is Brussels."
+    elif "what is the capital of Switzerland" in user_input:    
+        return "The capital of Switzerland is Bern."
+    elif "what is the capital of Sweden" in user_input:
+        return "The capital of Sweden is Stockholm."
+    elif "what is the capital of Norway" in user_input:
+        return "The capital of Norway is Oslo."
+    elif "what is the capital of Finland" in user_input:
+        return "The capital of Finland is Helsinki."
+    elif "what is the capital of Denmark" in user_input:
+        return "The capital of Denmark is Copenhagen."
+    elif "what is the capital of Iceland" in user_input:
+        return "The capital of Iceland is Reykjavik."
+    elif "what is the capital of Ireland" in user_input:
+        return "The capital of Ireland is Dublin."
+    elif "what is the capital of Poland" in user_input:
+        return "The capital of Poland is Warsaw."
+    elif "what is the capital of Czech Republic" in user_input:
+        return "The capital of the Czech Republic is Prague."
+    elif "what is the capital of Hungary" in user_input:
+        return "The capital of Hungary is Budapest."
+    elif "what is the capital of Austria" in user_input:
+        return "The capital of Austria is Vienna."
+    elif "what is the capital of Romania" in user_input:
+        return "The capital of Romania is Bucharest."
+    elif "what is the capital of Bulgaria" in user_input:
+        return "The capital of Bulgaria is Sofia."
+    elif "what is the capital of Serbia" in user_input:
+        return "The capital of Serbia is Belgrade."
+    elif "what is the capital of Croatia" in user_input:
+        return "The capital of Croatia is Zagreb."
+    elif "what is the capital of Slovenia" in user_input:
+        return "The capital of Slovenia is Ljubljana."
+    elif "what is the capital of Slovakia" in user_input:
+        return "The capital of Slovakia is Bratislava."
+    elif "what is the capital of Ukraine" in user_input:
+        return "The capital of Ukraine is Kyiv."
+    elif "what is the capital of Belarus" in user_input:
+        return "The capital of Belarus is Minsk."
+    elif "what is the capital of Lithuania" in user_input:
+        return "The capital of Lithuania is Vilnius."
+    elif "what is the capital of Latvia" in user_input:
+        return "The capital of Latvia is Riga."
+    elif "what is the capital of Estonia" in user_input:
+        return "The capital of Estonia is Tallinn."
+    elif "what is the capital of Moldova" in user_input:
+        return "The capital of Moldova is Chișinău."
+    elif "what is the capital of Georgia" in user_input:
+        return "The capital of Georgia is Tbilisi."
+    elif "what is the capital of Armenia" in user_input:
+        return "The capital of Armenia is Yerevan."
+    elif "what is the capital of Azerbaijan" in user_input:
+        return "The capital of Azerbaijan is Baku."
+    elif "what is the capital of Kazakhstan" in user_input:
+        return "The capital of Kazakhstan is Nur-Sultan (formerly known as Astana)."
+    elif "what is the capital of Uzbekistan" in user_input:
+        return "The capital of Uzbekistan is Tashkent."
+    elif "what is the capital of Kyrgyzstan" in user_input:
+        return "The capital of Kyrgyzstan is Bishkek."
+    elif "what is the capital of Tajikistan" in user_input:
+        return "The capital of Tajikistan is Dushanbe."
+    elif "what is the capital of Turkmenistan" in user_input:
+        return "The capital of Turkmenistan is Ashgabat."
+    elif "what is the capital of Afghanistan" in user_input:
+        return "The capital of Afghanistan is Kabul."
+    elif "what is the capital of Iran" in user_input:
+        return "The capital of Iran is Tehran."
+    elif "what is the capital of Iraq" in user_input:
+        return "The capital of Iraq is Baghdad."
+    elif "what is the capital of Syria" in user_input:
+        return "The capital of Syria is Damascus."
+    elif "what is the capital of Lebanon" in user_input:
+        return "The capital of Lebanon is Beirut."
+    elif "what is the capital of Jordan" in user_input:
+        return "The capital of Jordan is Amman."
     elif "bye" in user_input:
         return "Goodbye! Have a nice day."
     else:
