@@ -65,6 +65,28 @@ def chatbot_response(user_input):
         return "I don't watch movies, but I know many people enjoy action, comedy, and drama genres."
     elif "what is your favorite book genre" in user_input:
         return "I don't read books, but I know many people enjoy fiction, mystery, and fantasy genres."
+    elif "list capitals" in user_input or "show capitals" in user_input:
+        capitals = [
+            "France: Paris", "Japan: Tokyo", "India: New Delhi", "USA: Washington, D.C.",
+            "Germany: Berlin", "Italy: Rome", "Spain: Madrid", "Canada: Ottawa",
+            "Australia: Canberra", "UK: London", "China: Beijing", "Russia: Moscow",
+            "Brazil: Brasília", "Mexico: Mexico City", "South Africa: Pretoria/Bloemfontein/Cape Town",
+            "Egypt: Cairo", "Argentina: Buenos Aires", "South Korea: Seoul", "Turkey: Ankara",
+            "Saudi Arabia: Riyadh", "Indonesia: Jakarta", "Nigeria: Abuja", "Pakistan: Islamabad",
+            "Bangladesh: Dhaka", "Vietnam: Hanoi", "Thailand: Bangkok", "Philippines: Manila",
+            "Malaysia: Kuala Lumpur", "Singapore: Singapore", "Greece: Athens", "Portugal: Lisbon",
+            "Netherlands: Amsterdam", "Belgium: Brussels", "Switzerland: Bern", "Sweden: Stockholm",
+            "Norway: Oslo", "Finland: Helsinki", "Denmark: Copenhagen", "Iceland: Reykjavik",
+            "Ireland: Dublin", "Poland: Warsaw", "Czech Republic: Prague", "Hungary: Budapest",
+            "Austria: Vienna", "Romania: Bucharest", "Bulgaria: Sofia", "Serbia: Belgrade",
+            "Croatia: Zagreb", "Slovenia: Ljubljana", "Slovakia: Bratislava", "Ukraine: Kyiv",
+            "Belarus: Minsk", "Lithuania: Vilnius", "Latvia: Riga", "Estonia: Tallinn",
+            "Moldova: Chișinău", "Georgia: Tbilisi", "Armenia: Yerevan", "Azerbaijan: Baku",
+            "Kazakhstan: Nur-Sultan", "Uzbekistan: Tashkent", "Kyrgyzstan: Bishkek",
+            "Tajikistan: Dushanbe", "Turkmenistan: Ashgabat", "Afghanistan: Kabul",
+            "Iran: Tehran", "Iraq: Baghdad", "Syria: Damascus", "Lebanon: Beirut", "Jordan: Amman"
+        ]
+        return "Here are some capitals I know:\n" + "\n".join(capitals)
     elif "what is the capital of France" in user_input:
         return "The capital of France is Paris."
     elif "what is the capital of Japan" in user_input:
@@ -203,7 +225,7 @@ def chatbot_response(user_input):
         return "The capital of Iraq is Baghdad."
     elif "what is the capital of Syria" in user_input:
         return "The capital of Syria is Damascus."
-    elif "what is the capital of Lebanon" in user_input:
+    elif "what is the capital of Lebanon?" in user_input:
         return "The capital of Lebanon is Beirut."
     elif "what is the capital of Jordan" in user_input:
         return "The capital of Jordan is Amman."
