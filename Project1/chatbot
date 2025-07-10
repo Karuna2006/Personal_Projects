@@ -207,6 +207,10 @@ def chatbot_response(user_input):
         return "The capital of Lebanon is Beirut."
     elif "what is the capital of Jordan" in user_input:
         return "The capital of Jordan is Amman."
+    elif "what is your favorite programming language?" in user_input:
+        return "I don't have personal preferences, but Python is widely loved for its simplicity and versatility!"
+    elif "what languages do you speak?" in user_input:
+        return "I can understand and respond in English, but I can also provide information in other languages if needed."
     elif "bye" in user_input:
         return "Goodbye! Have a nice day."
     else:
