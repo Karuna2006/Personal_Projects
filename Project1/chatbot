@@ -8,6 +8,8 @@ def chatbot_response(user_input):
     user_input = user_input.lower()
     if user_input in greetings:
         return random.choice(responses)
+    
+    # Basic Questions and responses
     elif "how are you" in user_input:
         return "I'm a bot, but I'm doing great! How can I help you?"
     elif "what is your name" in user_input:
@@ -68,6 +70,16 @@ def chatbot_response(user_input):
         return "I don't watch movies, but I know many people enjoy action, comedy, and drama genres."
     elif "what is your favorite book genre" in user_input:
         return "I don't read books, but I know many people enjoy fiction, mystery, and fantasy genres."
+    elif "tell me a fun fact" in user_input:
+        return "Did you know that octopuses have three hearts? Two pump blood to the gills, while one pumps it to the rest of the body!"
+    elif "what is your favorite planet" in user_input:
+        return "I don't have favorites, but Earth is fascinating because it's the only planet known to support life!"
+    elif "what is your favorite programming language?" in user_input:
+        return "I don't have personal preferences, but Python is widely loved for its simplicity and versatility!"
+    elif "what languages do you speak?" in user_input:
+        return "I can understand and respond in English, but I can also provide information in other languages if needed."
+    
+    # Capitals and countries
     elif "list capitals" in user_input or "show capitals" in user_input:
         capitals = [
             "France: Paris", "Japan: Tokyo", "India: New Delhi", "USA: Washington, D.C.",
@@ -232,16 +244,103 @@ def chatbot_response(user_input):
         return "The capital of Lebanon is Beirut."
     elif "what is the capital of jordan?" in user_input:
         return "The capital of Jordan is Amman."
-    elif "what is your favorite programming language?" in user_input:
-        return "I don't have personal preferences, but Python is widely loved for its simplicity and versatility!"
-    elif "what languages do you speak?" in user_input:
-        return "I can understand and respond in English, but I can also provide information in other languages if needed."
+    elif "what is the capital of north korea?" in user_input:
+        return "The capital of North Korea is Pyongyang."
+    
+    # General Knowledge Questions
+    elif "what is the largest country in the world?" in user_input:
+        return "The largest country in the world by land area is Russia."
+    elif "what is the smallest country in the world?" in user_input:
+        return "The smallest country in the world by land area is Vatican City."
+    elif "what is the longest river in the world?" in user_input:
+        return "The longest river in the world is the Nile River, although some sources also consider the Amazon River to be longer."
+    elif "what is the highest mountain in the world?" in user_input:
+        return "The highest mountain in the world is Mount Everest, which stands at 8,848 meters (29,029 feet) above sea level."
+    elif "what is the largest ocean in the world?" in user_input:
+        return "The largest ocean in the world is the Pacific Ocean."
+    elif "what is the smallest ocean in the world?" in user_input:
+        return "The smallest ocean in the world is the Arctic Ocean."
+    elif "what is the largest desert in the world?" in user_input:
+        return "The largest desert in the world is the Antarctic Desert, followed by the Arctic Desert. The largest hot desert is the Sahara Desert."
+    elif "what is the largest continent in the world?" in user_input:
+        return "The largest continent in the world by land area is Asia."
+    elif "what is the smallest continent in the world?" in user_input:
+        return "The smallest continent in the world by land area is Australia."
+    elif "what is the most spoken language in the world?" in user_input:
+        return "The most spoken language in the world is English, followed by Mandarin Chinese."
+    elif "what is the least spoken language in the world?" in user_input:
+        return "There are many languages with very few speakers, but one of the least spoken languages is Taushiro, which has only a handful of speakers left."
+    elif "what is the most popular sport in the world?" in user_input:
+        return "The most popular sport in the world is soccer (football), with billions of fans globally."
+    elif "what is the most popular food in the world?" in user_input:
+        return "Pizza is often considered one of the most popular foods worldwide, enjoyed in various forms across different cultures."
+    elif "what is the most popular drink in the world?" in user_input:
+        return "Water is the most consumed drink in the world, but tea and coffee are also extremely popular beverages."
+    elif "what is the most popular music genre in the world?" in user_input:
+        return "Pop music is one of the most popular music genres globally, but genres like rock, hip-hop, and electronic dance music also have large followings."
+    elif "what is the most popular movie in the world?" in user_input:
+        return "As of my last update, 'Avatar' (2009) is the highest-grossing movie of all time, but many films like 'Titanic' and 'Star Wars' are also extremely popular."
+    elif "what is the most popular book in the world?" in user_input:
+        return "The Bible is often considered the most widely read and distributed book in the world, followed by other classics like 'Don Quixote' and 'Harry Potter'."
+    elif "what is the most popular holiday in the world?" in user_input:
+        return "Christmas is one of the most widely celebrated holidays around the world, followed by New Year's Day and Easter."
+    elif "what is the most popular festival in the world?" in user_input:
+        return "Carnival in Brazil is one of the most famous festivals globally, attracting millions of visitors. Other notable festivals include Diwali in India and Oktoberfest in Germany."
+    elif "what is the most popular tourist destination in the world?" in user_input:
+        return "Paris, France, is often considered the most popular tourist destination in the world, known for its iconic landmarks like the Eiffel Tower and Louvre Museum."
+    elif "what is the most popular city in the world?" in user_input:
+        return "Tokyo, Japan, is often regarded as one of the most popular cities in the world, known for its vibrant culture, technology, and cuisine."
+    elif "what is the most popular animal in the world?" in user_input:
+        return "Dogs are often considered the most popular pets worldwide, followed closely by cats. In the wild, animals like elephants and lions are also very popular."
+    elif "what is the most popular plant in the world?" in user_input:
+        return "The most popular houseplant is the pothos (Epipremnum aureum), known for its hardiness and ability to thrive in various conditions. In gardens, roses are one of the most popular flowers."
+    elif "what is the most popular tree in the world?" in user_input:
+        return "The oak tree is one of the most popular trees in the world, known for its strength and longevity. Other popular trees include the maple and pine."
+    elif "what is the most popular technology in the world?" in user_input:
+        return "Smartphones are among the most popular technologies in the world, with billions of users. Other popular technologies include laptops, tablets, and smart home devices."
+    elif "what is the most popular social media platform in the world?" in user_input:
+        return "As of my last update, Facebook is one of the most popular social media platforms globally, followed by Instagram, Twitter (now X), and TikTok."
+    elif "what is the most popular website in the world?" in user_input:
+        return "Google is the most visited website in the world, followed by YouTube and Facebook."
+    elif "what is the most popular search engine in the world?" in user_input:
+        return "Google is the most popular search engine in the world, handling billions of searches every day."
+    elif "what is the most popular programming language in the world?" in user_input:
+        return "As of my last update, Python is one of the most popular programming languages, known for its simplicity and versatility. Other popular languages include JavaScript, Java, and C++."
+    elif "what is the most popular video game in the world?" in user_input:
+        return "As of my last update, 'Minecraft' is one of the most popular video games in the world, with millions of active players. Other popular games include 'Fortnite', 'Call of Duty', and 'League of Legends'."
     elif "Who is the president of the USA?" in user_input:
         return "As of my last update, the President of the USA is Joe Biden. Please verify as this may change."
-    elif "tell me a fun fact" in user_input:
-        return "Did you know that octopuses have three hearts? Two pump blood to the gills, while one pumps it to the rest of the body!"
-    elif "what is your favorite planet" in user_input:
-        return "I don't have favorites, but Earth is fascinating because it's the only planet known to support life!"
+    elif "who is the prime minister of the uk?" in user_input:
+        return "As of my last update, the Prime Minister of the UK is Rishi Sunak. Please verify as this may change."
+    elif "who is the chancellor of germany?" in user_input:
+        return "As of my last update, the Chancellor of Germany is Olaf Scholz. Please verify as this may change."
+    elif "who is the president of france?" in user_input:
+        return "As of my last update, the President of France is Emmanuel Macron. Please verify as this may change."
+    elif "who is the prime minister of canada?" in user_input:
+        return "As of my last update, the Prime Minister of Canada is Justin Trudeau. Please verify as this may change."
+    elif "who is the prime minister of india?" in user_input:
+        return "As of my last update, the Prime Minister of India is Narendra Modi. Please verify as this may change."
+    elif "who is the president of russia?" in user_input:
+        return "As of my last update, the President of Russia is Vladimir Putin. Please verify as this may change."
+    elif "who is the president of china?" in user_input:
+        return "As of my last update, the President of China is Xi Jinping. Please verify as this may change."
+    elif "who is the prime minister of australia?" in user_input:
+        return "As of my last update, the Prime Minister of Australia is Anthony Albanese. Please verify as this may change."
+    elif "who is the president of brazil?" in user_input:
+        return "As of my last update, the President of Brazil is Luiz Inácio Lula da Silva. Please verify as this may change."
+    elif "who is the president of mexico?" in user_input:
+        return "As of my last update, the President of Mexico is Andrés Manuel López Obrador. Please verify as this may change."
+    elif "who is the president of south africa?" in user_input:
+        return "As of my last update, the President of South Africa is Cyril Ramaphosa. Please verify as this may change."
+    elif "who is the prime minister of japan?" in user_input:
+        return "As of my last update, the Prime Minister of Japan is Fumio Kishida. Please verify as this may change."
+    elif "who is the prime minister of italy?" in user_input:
+        return "As of my last update, the Prime Minister of Italy is Giorgia Meloni. Please verify as this may change."
+    elif "who is the prime minister of spain?" in user_input:
+        return "As of my last update, the Prime Minister of Spain is Pedro Sánchez. Please verify as this may change."
+    
+   
+   # Math operations 
     elif "add" in user_input or "plus" in user_input:
         numbers = re.findall(r'\d+', user_input)
         if len(numbers) >= 2:
@@ -252,7 +351,7 @@ def chatbot_response(user_input):
     elif "subtract" in user_input or "minus" in user_input:
         numbers = re.findall(r'\d+', user_input)
         if len(numbers) >= 2:
-            result = int(numbers[0]) - int(numbers[1])
+            result = int(numbers[1]) - int(numbers[0])
             return f"The result is {result}."
         else:
             return "Please provide two numbers to subtract, like 'subtract 10 from 20'."
