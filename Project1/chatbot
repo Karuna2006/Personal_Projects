@@ -372,6 +372,54 @@ def chatbot_response(user_input):
                 return "Cannot divide by zero!"
         else:
             return "Please provide two numbers to divide, like 'divide 8 by 2'."
+
+    # Technology
+    elif "what is ai" in user_input:
+        return "AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines that are programmed to think and learn."
+    elif "what is machine learning" in user_input:
+        return "Machine Learning is a subset of AI that involves training algorithms to learn from and make predictions based on data."
+    elif "what is deep learning" in user_input:
+        return "Deep Learning is a type of machine learning that uses neural networks with many layers to analyze various factors of data."
+    elif "what is natural language processing" in user_input:
+        return "Natural Language Processing (NLP) is a field of AI that focuses on the interaction between computers and humans through natural language."
+    elif "what is computer vision" in user_input:
+        return "Computer Vision is a field of AI that enables computers to interpret and understand visual information from the world."
+    elif "what is blockchain" in user_input:
+        return "Blockchain is a decentralized digital ledger that records transactions across many computers in such a way that the registered transactions cannot be altered retroactively."
+    elif "what is cloud computing" in user_input:
+        return "Cloud Computing is the delivery of computing services over the internet, allowing for on-demand access to resources like storage, processing power, and applications."
+    elif "what is the internet of things" in user_input:
+        return "The Internet of Things (IoT) refers to the network of physical devices that are connected to the internet, allowing them to collect and exchange data."
+    elif "what is quantum computing" in user_input:
+        return "Quantum Computing is a type of computing that uses quantum bits (qubits) to perform calculations at speeds unattainable by traditional computers, leveraging the principles of quantum mechanics."
+    elif "what is augmented reality" in user_input:
+        return "Augmented Reality (AR) is a technology that overlays digital information, such as images or sounds, onto the real world, enhancing the user's perception of their environment."
+    elif "what is virtual reality" in user_input:
+        return "Virtual Reality (VR) is a simulated experience that can be similar to or completely different from the real world, often using headsets to immerse users in a virtual environment."
+    elif "what is cybersecurity" in user_input:
+        return "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks, ensuring the confidentiality, integrity, and availability of information."
+    elif "what is big data" in user_input:
+        return "Big Data refers to large and complex data sets that traditional data processing software cannot manage efficiently. It involves the collection, storage, and analysis of vast amounts of data to uncover patterns, trends, and insights."
+    elif "what is 5g" in user_input:
+        return "5G is the fifth generation of mobile network technology, offering faster speeds, lower latency, and greater capacity compared to previous generations, enabling new applications like IoT and enhanced mobile broadband."
+    elif "what is the metaverse" in user_input:
+        return "The Metaverse is a collective virtual shared space, created by the convergence of virtually enhanced physical reality and physically persistent virtual reality, where users can interact with a computer-generated environment and other users."
+    elif "what is cryptocurrency" in user_input:
+        return "Cryptocurrency is a digital or virtual currency that uses cryptography for security, making it difficult to counterfeit. It operates on decentralized networks based on blockchain technology, with Bitcoin being the first and most well-known example."
+    elif "what is a chatbot" in user_input:
+        return "A chatbot is a software application designed to simulate human conversation through text or voice interactions, often used in customer service, information retrieval, and personal assistance."
+    elif "what is a search engine" in user_input:
+        return "A search engine is a software system designed to carry out web searches, allowing users to find information on the internet by entering keywords or phrases. Examples include Google, Bing, and Yahoo."
+    elif "what is a web browser" in user_input:
+        return "A web browser is a software application used to access and view websites on the internet. Popular web browsers include Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge."
+    elif "what is a database" in user_input:
+        return "A database is an organized collection of structured information or data, typically stored electronically in a computer system, that can be easily accessed, managed, and updated. Examples include MySQL, PostgreSQL, and MongoDB."
+    elif "what is a programming language" in user_input:
+        return "A programming language is a formal set of instructions that can be used to produce various kinds of output, such as software applications, scripts, or algorithms. Examples include Python, Java, C++, and JavaScript."
+    
+        
+
+    # Exit condition
     elif "bye" in user_input:
         return "Goodbye! Have a nice day."
     else:
